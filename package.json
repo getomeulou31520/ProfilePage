@@ -1,0 +1,22 @@
+{
+  "name": "profilepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommygoud/ProfilePage.git"
+  },
+  "author": "Thomas Goudenove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommygoud/ProfilePage/issues"
+  },
+  "homepage": "https://github.com/tommygoud/ProfilePage#readme",
+  "dependencies": {
+    "zepto": "0.0.4"
+  }
+}

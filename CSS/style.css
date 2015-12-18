@@ -1,0 +1,63 @@
+body {
+	background-color: ;
+	font-size: 40px;
+	font-family: arial;
+}
+
+header {
+	background-color: #FFAB91;
+	text-align: center;
+}
+
+section {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#image {
+	border: outset red 10px;
+	border-radius: 100%;
+}
+
+#profil {
+	color: #BF360C;
+	padding: 3%;
+}
+
+#profil2 {
+	font-size: 25px;
+	color: #D84315;
+}
+
+#textprofil {
+	font-size: 18px;
+	padding: 4%;
+	color: #E64A19;
+}
+
+.text {
+	font-size: 30px;
+	float: left;
+	width: 750px;
+	color: #FF3D00;
+}
+
+#liste {
+	float: right;
+	color: #FF3D00;
+	font-size: 30px;
+}
+
+.border {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FF5722;
+}
+
+.border2 {
+	border-width: ;
+	border-style: ;
+	border-color: ;
+	padding: ;
+}

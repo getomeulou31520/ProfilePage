@@ -1,0 +1,12 @@
+{
+	"id": "-666",
+	"first_name": "Thomas",
+	"last_name": "Goudenove",
+	"occupation": "Dévélopeur de Web",
+	"badges": "5",
+	"contact": {
+		"email": "thomas.goudenove@gmail.com",
+		"website": "Profil"
+	}
+}
+/* pourquoi il y a trois {? /*
