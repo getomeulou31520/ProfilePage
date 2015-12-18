@@ -3,15 +3,17 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<script type="text/javascript" src="node_modules/zepto/zepto.min.js"></script>
+	<script type="text/javascript" src="JS/mustache.js"></script>
 	<script type="text/javascript" src="JS/app.js"></script>
 
 	<title>Profil</title>
 </head>
 <body>
-	<header>
+	<script id="template" type="x-tmpl-mustache">
+			<header>
 		<img id="image" src="https://unsplash.it/200/300">
-		<h1 id="profil"><span elt="first_name"></span> <span elt="last_name"></span></h1>
-		<h2 id="profil2"><span elt="occupation"></span></h2>
+		<h1 id="profil">{{first_name}} {{last_name}}</h1>
+		<h2 id="profil2">{{occupation}}</h2>
 			<p id="textprofil">
 			Il est un petit dévéloppeur de web, en formaton au lycée Galleni, bien sympatique. <br />
 			Dure et éprouvant pour lui, lorsque que jquery est là lol.<br />
@@ -33,7 +35,7 @@
 		<ul id="liste" class="border2"> Menu
 			<a href="1"><li>Projets</li></a>
 			<a href="2"><li>Badges</li></a>
-			<a href="3"><li><span elt="contact"></span></li></a>
+			<a href="3"><li>{{contact.email}}</li></a>
 		</ul>
 	</div>
 
@@ -55,7 +57,8 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</p>
-	</section>
+	</section>	</script>
+
 	<script type='text/javascript' id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.10.0.js'><\/script>".replace("HOST", location.hostname));
 //]]></script></body>

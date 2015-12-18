@@ -1,6 +1,6 @@
-$.getJSON('http://vps227573.ovh.net/u--666.json', function( data ){
-	$('#profil').appendTo('first_name + " " + last_name'), 
+$.getJSON('https://s.idsympa.com/u-1.json', function( data ){
+  var template = $('#template').html();
+  var rendered = Mustache.render(template, data);
+  $('body').html(rendered);
 
-	// j'ai lu, relu, plursieurs fois, traduits en français, 
-	//est ce que tu as un élément qui s appele data dans ton html?
 });
